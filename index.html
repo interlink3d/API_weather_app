@@ -17,18 +17,21 @@
     <br>
     <br>
     <div class="input-group input-group-lg zipBox">
-      <input type="text" class="form-control" placeholder="Enter Zip Code Here" aria-describedby="sizing-addon1">
-      <span class="input-group-addon btn btn-default" id="sizing-addon1">Let it shine!</span>
+      <input type="text" id="inputZip" class="form-control" placeholder="Enter 5 digit Zip Code Here" aria-describedby="sizing-addon1">
+      <span class="input-group-addon btn btn-default" id="zipButton">Let it shine!</span>
     </div>
 
-    <div class="container" id="weatherOutput"></div>
+    <div class="container">
+      <div class="row" id="weatherOutput"></div>
+    </div>
+
     <br>
     <br>
     <br>
   </div>
 
-  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
   <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
   <script src="js/main.js" type="text/javascript"></script>
 </body>
 </html>

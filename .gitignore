@@ -4,3 +4,5 @@ node_modules
 .DS_Store
 dist/
 css/
+js/fb-getter.js
+fb-getter.js
