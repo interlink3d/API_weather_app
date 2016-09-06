@@ -49,7 +49,7 @@ var loadWeather = function (currentWeather) {
 
 
 
-// // Using the REST API
+Using the REST API
 // function currentWeather() {
 //   $(".uiContainer--wrapper").html("");  // cleared the DOM before loading songs
 //   db.getSongs()
